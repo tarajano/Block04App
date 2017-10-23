@@ -25,4 +25,15 @@
         android:layout_centerHorizontal="true"
         android:onClick="pauseMusic"
         android:text="@string/pause" />
+
+    <Switch
+        android:id="@+id/playerSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pauseButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="loopMusic"
+        />
+
+
 </RelativeLayout>

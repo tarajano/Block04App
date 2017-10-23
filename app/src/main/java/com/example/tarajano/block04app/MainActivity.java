@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
             song.pause();
         }
     }
+
+    public void loopMusic(View v){
+        song.setLooping(true);
+    }
+
 }
